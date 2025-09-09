@@ -1,7 +1,5 @@
 # 🎨 Neural Canvas - AI Art Style Transfer Studio
 
-![Neural Canvas Logo](https://via.placeholder.com/800x200/4A90E2/FFFFFF?text=Neural+Canvas) <!-- Replace with actual logo if available -->
-
 ## 🌟 Description
 
 Welcome to **Neural Canvas**, your ultimate AI-powered art style transfer studio! 🚀 This innovative web application transforms your ordinary photos into stunning masterpieces by applying sophisticated AI-inspired filters and real-time adjustments. Whether you're a professional artist, hobbyist, or just love experimenting with visual creativity, Neural Canvas empowers you to unleash your inner artist with just a few clicks. 🎭✨
