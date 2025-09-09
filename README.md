@@ -52,9 +52,8 @@ Dive into a world where technology meets artistry – upload your images, explor
    - Click "Download PNG" to save your creation
    - Or use "Share Creation" to share directly from your browser
   
-🚀 Getting Started
-Open in Browser
-     
+## 🚀 Open in Browser
+   https://neural-canvas-7777.netlify.app/ 
 
 ## 🛠️ Technologies Used
 
