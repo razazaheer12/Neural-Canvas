@@ -2,7 +2,10 @@
 
 Welcome to **Neural Canvas**, your ultimate AI-powered art style transfer studio! 🚀 This innovative web application transforms your ordinary photos into stunning masterpieces by applying sophisticated AI-inspired filters and real-time adjustments. Whether you're a professional artist, hobbyist, or just love experimenting with visual creativity, Neural Canvas empowers you to unleash your inner artist with just a few clicks. 🎭✨
 
-Dive into a world where technology meets artistry – upload your images, explore a variety of artistic filters, fine-tune with precision sliders, and export your creations to share with the world. It's not just editing; it's creating art with the power of AI! 🤖🖼️
+Dive into a world where technology meets artistry – upload your images, explore a variety of artistic filters, fine-tune with precision sliders, and export your creations to share with the world. It's not just editing; it's creating art with the power of AI! 
+
+<img width="1913" height="891" alt="image" src="https://github.com/user-attachments/assets/0ee51200-8c73-43a4-ab59-098fe3bca537" />
+
 
 ## ✨ Features
 
