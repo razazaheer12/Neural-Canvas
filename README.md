@@ -78,13 +78,7 @@ We love contributions! If you have ideas for new filters, improvements, or bug f
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request 📝
 
-## 📞 Contact
 
-Have questions or feedback? We'd love to hear from you!
-
-- **Email**: hello@neuralcanvas.com 📧
-- **Twitter**: [@NeuralCanvasAI](https://twitter.com/NeuralCanvasAI) 🐦
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/neural-canvas/issues) 🐛
 
 ## 🙏 Acknowledgments
 
@@ -94,6 +88,8 @@ Have questions or feedback? We'd love to hear from you!
 
 ---
 
-**Made with ❤️ and a dash of AI magic!** ✨🤖
+## 👨‍💻 Author
+
+Developed by RazaZaheer12 🚀
 
 *Transform your photos into art. Unleash your creativity. Welcome to Neural Canvas!* 🎨🚀
