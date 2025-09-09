@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Canvas - AI Art Style Transfer Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="logo">🎨 Neural Canvas</div>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </header>
+
+        <aside class="sidebar">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📁</div>
+                <div class="upload-text">Drag & drop your image here</div>
+                <div style="margin: 1rem 0;">or</div>
+                <button class="btn" onclick="document.getElementById('fileInput').click()">
+                    Choose Image
+                </button>
+                <input type="file" id="fileInput" class="file-input" accept="image/*">
+            </div>
+
+            <div class="control-section">
+                <div class="section-title">Recent Projects</div>
+                <button class="btn btn-secondary" style="width: 100%; margin-bottom: 0.5rem;">
+                    🖼️ Sunset Landscape
+                </button>
+                <button class="btn btn-secondary" style="width: 100%; margin-bottom: 0.5rem;">
+                    🎭 Portrait Study
+                </button>
+                <button class="btn btn-secondary" style="width: 100%;">
+                    🌸 Abstract Art
+                </button>
+            </div>
+
+            <div class="control-section">
+                <div class="section-title">Export Options</div>
+                <button class="btn" id="downloadBtn" style="width: 100%; margin-bottom: 0.5rem;" disabled>
+                    💾 Download PNG
+                </button>
+                <button class="btn btn-secondary" id="shareBtn" style="width: 100%;" disabled>
+                    📤 Share Creation
+                </button>
+            </div>
+        </aside>
+
+        <main class="canvas-area">
+            <div class="canvas-container" id="canvasContainer" style="display: none;">
+                <canvas id="mainCanvas"></canvas>
+                <div class="canvas-overlay">
+                    <button class="btn" id="resetBtn">↺ Reset</button>
+                    <button class="btn btn-secondary" id="compareBtn">👁️ Compare</button>
+                </div>
+            </div>
+
+            <div class="placeholder" id="placeholder">
+                <div class="placeholder-icon">🎨</div>
+                <h2>Welcome to Neural Canvas</h2>
+                <p>Upload an image to start creating amazing art transformations</p>
+            </div>
+
+            <div class="before-after" id="beforeAfter" style="display: none;">
+                <div class="image-preview">
+                    <img id="beforeImg" alt="Before">
+                    <div class="image-label">Before</div>
+                </div>
+                <div class="image-preview">
+                    <img id="afterImg" alt="After">
+                    <div class="image-label">After</div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="controls">
+            <div class="control-section">
+                <div class="section-title">Art Filters</div>
+                <div class="filter-grid">
+                    <button class="filter-btn active" data-filter="none">Original</button>
+                    <button class="filter-btn" data-filter="vintage">Vintage</button>
+                    <button class="filter-btn" data-filter="oil">Oil Paint</button>
+                    <button class="filter-btn" data-filter="watercolor">Watercolor</button>
+                    <button class="filter-btn" data-filter="sketch">Sketch</button>
+                    <button class="filter-btn" data-filter="neon">Neon</button>
+                    <button class="filter-btn" data-filter="dramatic">Dramatic</button>
+                    <button class="filter-btn" data-filter="dreamy">Dreamy</button>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <div class="section-title">Adjustments</div>
+
+                <div class="slider-container">
+                    <div class="slider-label">
+                        <span>Intensity</span>
+                        <span id="intensityValue">100%</span>
+                    </div>
+                    <input type="range" class="slider" id="intensitySlider" min="0" max="100" value="100">
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-label">
+                        <span>Contrast</span>
+                        <span id="contrastValue">0%</span>
+                    </div>
+                    <input type="range" class="slider" id="contrastSlider" min="-50" max="50" value="0">
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-label">
+                        <span>Brightness</span>
+                        <span id="brightnessValue">0%</span>
+                    </div>
+                    <input type="range" class="slider" id="brightnessSlider" min="-50" max="50" value="0">
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-label">
+                        <span>Saturation</span>
+                        <span id="saturationValue">0%</span>
+                    </div>
+                    <input type="range" class="slider" id="saturationSlider" min="-100" max="100" value="0">
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-label">
+                        <span>Blur</span>
+                        <span id="blurValue">0px</span>
+                    </div>
+                    <input type="range" class="slider" id="blurSlider" min="0" max="10" value="0">
+                </div>
+            </div>
+
+
+        </aside>
+    </div>
+
+    <div class="processing" id="processingOverlay" style="display: none;">
+        <div class="spinner"></div>
+        <div>Processing your masterpiece...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
