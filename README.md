@@ -51,6 +51,10 @@ Dive into a world where technology meets artistry – upload your images, explor
 5. **Export Your Masterpiece** 💾
    - Click "Download PNG" to save your creation
    - Or use "Share Creation" to share directly from your browser
+  
+🚀 Getting Started
+Open in Browser
+     
 
 ## 🛠️ Technologies Used
 
@@ -86,10 +90,10 @@ We love contributions! If you have ideas for new filters, improvements, or bug f
 - Thanks to all contributors and the open-source community
 - Special thanks to the creators of the Canvas API and modern web technologies
 
----
-
 ## 👨‍💻 Author
 
 Developed by RazaZaheer12 🚀
+
+---
 
 *Transform your photos into art. Unleash your creativity. Welcome to Neural Canvas!* 🎨🚀
